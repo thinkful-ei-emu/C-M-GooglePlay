@@ -34,5 +34,4 @@ app.get('/apps', (req, res) => {
   res.json(filteredApps);
 });
 
-
-app.listen(8000, ()=> console.log('Server running on Port 8000'));
+module.exports = app;
